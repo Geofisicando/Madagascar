@@ -1,0 +1,8 @@
+from rsf.proj import *
+
+Fetch('trace.rsf',
+	server="https://github.com",
+	top="Geofisicando/Madagascar/raw/main",
+	dir="data")
+
+Plot('fig','trace','wiggle yreverse=y transp=y poly=y title="Aula fetch"')
