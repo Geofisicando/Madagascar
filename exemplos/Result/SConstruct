@@ -1,0 +1,11 @@
+from rsf.proj import *
+
+Flow('y1',None,'math n1=41 o1=-4 d1=0.2 output="0.5*x1"')
+
+Plot('fig','y1','graph title="y(x)=0.5*x" label1=x label2=y')
+
+Result('fig2','y1',
+	'''
+	math output="sin(x1)" |
+	graph title="y(x)=sin(x)" label1=x label2=y
+	''')
