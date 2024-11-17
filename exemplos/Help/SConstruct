@@ -1,0 +1,20 @@
+from rsf.proj import *
+
+__author__ = "Geofisicando"
+__version__ = "1.0.0"
+__site__ = "www.geofisicando.com"
+
+Help('''
+
+Este é um exemplo simples de utilização do sfspike
+==================================================
+
+Author: %s
+Vesion: %s
+Site: %s
+
+''' % (__author__, __version__, __site__))
+
+Flow('output',None,'spike n1=21 k1=11')
+
+End()
