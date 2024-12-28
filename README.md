@@ -17,8 +17,9 @@ Iremos abordar os principais programas utilizados do pacote Madagascar para aná
 
 ## Índice
 
-> Este material de apoio está em manutenção. Alguns recursos podem não estar disponíveis
+> Este material de apoio está em manutenção. Alguns recursos podem não estar disponíveis.
 
+* [Slides do curso de introdução ao pacote Madagascar do professor Daniel Leal Macedo](https://github.com/Geofisicando/Madagascar/tree/main/Slides#slides-do-curso-de-introdu%C3%A7%C3%A3o-ao-pacote-madagascar-do-professor-daniel-leal-macedo)
 * #0 - Documentação e programas padrão (Parte 1)
 * #1 - Documentação e programas padrão (Parte 2)
 * #2 - Utilizar a interface de linha de comandos
