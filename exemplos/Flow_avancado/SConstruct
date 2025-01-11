@@ -1,0 +1,23 @@
+from rsf.proj import Flow
+
+# === { Flow advanced options } ===
+#
+# stdout=-1 (no output)
+# stdout=0 (to /dev/null)
+# stdout=1 (default, output to target)
+#
+# rsfflow=0 (not using Madagascar commands)
+# rsfflow=1 (using Madagascar commands)
+#
+# src_suffix (sources suffix)
+# suffix (target suffix)
+
+Flow('output',None,
+	'''
+	echo 'olá galera do canal'
+	''',rsfflow=0,suffix='.txt',stdout=1)
+
+Flow('output2','output',
+	'''
+	cat
+	''', rsfflow=0, suffix='.txt',src_suffix='.txt',stdout=1)
