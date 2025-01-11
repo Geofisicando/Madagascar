@@ -1,0 +1,5 @@
+from rsf.proj import *
+
+n1 = int(ARGUMENTS.get('n1','10'))
+
+Flow('model',None,'spike n1=%d k1=2' % n1)

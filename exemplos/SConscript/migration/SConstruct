@@ -1,0 +1,3 @@
+from rsf.proj import *
+
+Flow('migration',None,'spike n1=100 k1=10')
