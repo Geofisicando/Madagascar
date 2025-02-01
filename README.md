@@ -44,3 +44,4 @@ Iremos abordar os principais programas utilizados do pacote Madagascar para aná
 
 * [#25 - Documentação de scripts SConstruct com função Help](https://github.com/Geofisicando/Madagascar/tree/main/exemplos/Help#aula-25---documenta%C3%A7%C3%A3o-de-scripts-sconstruct-com-fun%C3%A7%C3%A3o-help)
 * [#26 - Fluxo de processamento de Denoising (Parte 1)](https://github.com/Geofisicando/Madagascar/tree/main/exemplos/processing/denoising#aula-26---fluxo-de-processamento-de-denoising-parte-1)
+* [#33 - Gerenciar fluxos de processamento com SConscript](https://github.com/Geofisicando/Madagascar/tree/main/exemplos/SConscript#aula-33---gerenciar-fluxos-de-processamento-com-sconscript)
